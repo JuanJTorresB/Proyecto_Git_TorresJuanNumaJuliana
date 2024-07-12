@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "Modulo Datos",
-        "Estructura Json"
+        "Estructura Json",
+        "Modulo CRUD"
     ]
 }
