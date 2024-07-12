@@ -22,3 +22,12 @@ def EditarCiudad(Datos):
     else:
         print("Ciudad no valida")
         return Datos
+    
+def AgregarCiudad(Datos):
+    Ciudad = {}
+    Ciudad["nombreCiudad"] = input("Nombre de la ciudad: ")
+    Ciudad["codigoPostal"] = input("Codigo Postal de la ciuda: ")
+    Ciudad["poblacionEstimada"] = input("Poblacion Estimada: ")
+    Ciudad["pais"] = input("Nombre del pais: ")
+    Datos.append(Ciudad)
+    return Datos
