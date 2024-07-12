@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "Modulo Datos",
         "Estructura Json",
-        "Modulo CRUD"
+        "Modulo CRUD",
+        "Main.py"
     ]
 }
