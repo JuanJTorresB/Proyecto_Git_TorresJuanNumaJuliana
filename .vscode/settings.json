@@ -1,0 +1,8 @@
+{
+    "conventionalCommits.scopes": [
+        "Modulo Datos",
+        "Estructura Json",
+        "Modulo CRUD",
+        "Main.py"
+    ]
+}
