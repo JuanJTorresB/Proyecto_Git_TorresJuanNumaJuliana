@@ -4,5 +4,11 @@
         "codigoPostal":"680001",
         "poblacionEstimada":"1341694",
         "pais":"Colombia"
+    },
+    {
+        "nombreCiudad":"Medellin",
+        "codigoPostal":"050001",
+        "poblacionEstimada":"2700702",
+        "pais":"Colombia"
     }
 ]
