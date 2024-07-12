@@ -6,8 +6,6 @@ def cargar_datos(archivo):
         datos=json.load(file)
     return datos
 
-
-
 def guardar_datos(datos, archivo):
     datos = dict(datos)
     diccionario=json.dumps(datos, indent=4)
