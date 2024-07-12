@@ -16,9 +16,6 @@ def EditarCiudad(Datos):
                 ciudades["poblacionEstimada"] = input("Poblacion Estimada: ")
                 ciudades["pais"] = input("Nombre del pais: ")
                 return Datos
-            else:
-                print("Ciudad no Valida")
-                return Datos
     else:
         print("Ciudad no valida")
         return Datos
