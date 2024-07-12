@@ -6,6 +6,7 @@ def menu_principal():
     print("Digita [1] para --> Agregar cuidad")
     print("Digita [2] para --> Buscar ciudad")
     print("Digita [3] para --> Editar ciudad existente")
+    print("Digita [4] para --> Ver lista de ciudadades registradas")
     print("Digita [0] para --> Salir")
     print("-----------------------------------------------")
 
@@ -35,6 +36,15 @@ def menu_editar_ciudad():
     print("Digita [0] para --> Regresar al menu principal")
     print("-----------------------------------------------")
     
+    
+def menu_ordenar_lista():
+    print("-------------Menú Ordenar lista-------------")  
+    print("Digita [1] para --> Ordenar por nombre")
+    print("Digita [2] para --> Ordenar por poblacion")
+    print("Digita [3] para --> Ordenar por pais")
+    print("Digita [0] para --> Regresar al menu principal")
+    print("-----------------------------------------------")
+        
     
 def pedir_opc():
     opc = 0
